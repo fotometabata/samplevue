@@ -15,6 +15,5 @@ RUN npm install -g @vue/cli
 RUN npm install -g @vue/cli-init
 
 # axiosをインストール（ajax通信用ライブラリ）
-# front側のプロジェクト作成後に実行する
 RUN npm install axios --save
 RUN npm install moment --save
