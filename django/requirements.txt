@@ -1,0 +1,10 @@
+django==2.1.5
+PyMySQL==0.9.3
+Pillow
+mysqlclient
+
+# Django Rest Framework用
+djangorestframework
+django-cors-headers
+djangorestframework_camel_case
+six #djangorestframework_camel_case.parser.CamelCaseJSONParserを使うために必要
